@@ -16,7 +16,6 @@ body {
 
 .promo {
   display: flex;
-
   background: #3030c1;
   padding-top: 60px;
   padding-left: 130px;
@@ -32,7 +31,6 @@ body {
   width: 53%;
   margin-top: 130px;
   margin-bottom: 0;
-
   color: #fff;
   font-size: 45px;
   line-height: 55px;
@@ -43,7 +41,7 @@ body {
   width: 29.9%;
   margin-top: 32px;
   margin-bottom: 0;
-  color: #ffcc33;
+  color: #fc3;
   font-size: 30px;
   line-height: 37px;
   font-weight: 800;
@@ -62,7 +60,7 @@ body {
 .promo__button {
   margin-top: 32px;
   padding: 15px 23px;
-  background: #ffcc33;
+  background: #fc3;
   color: #3030c1;
   font-size: 20px;
   line-height: 24px;
@@ -107,13 +105,9 @@ body {
   flex-direction: column;
   justify-content: start;
   align-items: center;
-
   margin-right: 20px;
   margin-bottom: 20px;
-  padding-top: 50px;
-  padding-bottom: 40px;
-  padding-right: 25px;
-  padding-left: 25px;
+  padding: 50px 25px 40px 25px;
   background: #fbfbfb;
   box-sizing: border-box;
   filter: drop-shadow(7px 7px 30px rgba(0, 0, 0, 0.25));
@@ -154,10 +148,7 @@ body {
 
 .form {
   margin-top: 55px;
-  padding-top: 40px;
-  padding-left: 130px;
-  padding-right: 130px;
-  padding-bottom: 73px;
+  padding: 40px 130px 73px 130px;
   background: #f0fbff;
 }
 
@@ -207,10 +198,7 @@ body {
 }
 
 .footer {
-  padding-top: 51px;
-  padding-left: 130px;
-  padding-right: 130px;
-  padding-bottom: 51px;
+  padding: 51px 130px;
   background: #00008b;
   color: #fff;
   font-family: Roboto, Arial, Helvetica, sans-serif;
@@ -361,6 +349,7 @@ body {
   .promo__title-mob {
     display: block;
   }
+
   .promo__title-desk {
     display: none;
   }
@@ -375,7 +364,6 @@ body {
   .promo__text {
     width: 91%;
     margin-top: 0;
-
     font-size: 15px;
     line-height: 17px;
   }
@@ -431,7 +419,6 @@ body {
   .plan__text {
     width: 87%;
     margin: 30px auto 0 auto;
-
     font-size: 18px;
     line-height: 21px;
   }
@@ -453,6 +440,7 @@ body {
   .form__inner {
     margin-top: 25px;
   }
+
   .form__title {
     margin-top: 4px;
     font-size: 20px;
